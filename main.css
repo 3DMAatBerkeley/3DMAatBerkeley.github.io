@@ -1,3 +1,24 @@
 html {
 	background: linear-gradient(to bottom right, #e6f1fe 0%, #8ab9c3 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1.pageTitle {
+	margin-bottom: 0px;
+}
+
+h2.pageTitle {
+	font-size: 24px;
+	margin-top: 0px;
+	font-weight: normal;
 }
