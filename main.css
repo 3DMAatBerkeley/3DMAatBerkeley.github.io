@@ -1,5 +1,5 @@
 html {
-	background: linear-gradient(to bottom right, #e6f1fe 0%, #8ab9c3 100%);
+	background: linear-gradient(to bottom right, #e6f1fe 0%, #6e949c 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -12,11 +12,17 @@ body {
 header {
 	display: inline;
 	width: 100%;
+	height: 144px;
+	background: rgba(256, 256, 256, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 16px 0 #6e949c;
 }
 
 header * {
 	margin: 10px 30px;
-	background-color: white;
 }
 
 h1 {
@@ -49,7 +55,7 @@ h2 {
 .navBar {
 	display: inline-block;
 	position: absolute;
-	top: 80px;
+	top: 66px;
 	right: 0;
 }
 
