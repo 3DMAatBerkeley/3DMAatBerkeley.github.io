@@ -1,0 +1,67 @@
+html {
+	background: linear-gradient(to bottom right, #e6f1fe 0%, #6e949c 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+header {
+	display: inline;
+	width: 100%;
+	height: 144px;
+	background: rgba(256, 256, 256, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 16px 0 #6e949c;
+}
+
+header * {
+	margin: 10px 30px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+#pageTitle {
+	display: inline-block;
+}
+
+.logo {
+	margin-bottom: 0px;
+}
+
+.logoText {
+	margin-top: 0px;
+}
+
+.navBar * {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+.navBar {
+	display: inline-block;
+	position: absolute;
+	top: 66px;
+	right: 0;
+}
+
+.navBar a {
+	text-decoration: none;
+	color: black;
+	display: inline;
+	font-size: 20px;
+}
