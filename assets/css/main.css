@@ -72,12 +72,3 @@ h2 {
 	height: 300px;
 	margin-top: 144px;
 }
-
-#fox {
-	text-align: center;
-	background-color: blue;
-}
-
-#fox img {
-	display: inline-block;
-}
