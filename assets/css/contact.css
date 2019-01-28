@@ -33,6 +33,23 @@ h2 {
 	font-weight: normal;
 }
 
+label, input, textarea {
+	font-family: 'Muli', sans-serif;
+	margin-left: 5%;
+}
+
+label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+input[type=text], textarea {
+	width: 89%;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border: 1px solid #6e949c;
+}
+
 #pageTitle {
 	display: inline-block;
 }
@@ -64,4 +81,23 @@ h2 {
 	color: black;
 	display: inline;
 	font-size: 20px;
+}
+
+#form {
+	margin-top: 150px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#form h1 {
+	font-weight: bolder;
+	text-align: center;
+}
+
+.submission {
+	text-align: center;
+}
+
+.submission input[type="submit"] {
+	border: 1px solid #6e949c;
 }
