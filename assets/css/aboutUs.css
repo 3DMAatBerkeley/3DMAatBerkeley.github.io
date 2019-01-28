@@ -33,6 +33,10 @@ h2 {
 	font-weight: normal;
 }
 
+p {
+	font-family: 'Muli', sans-serif;
+}
+
 #pageTitle {
 	display: inline-block;
 }
@@ -64,4 +68,8 @@ h2 {
 	color: black;
 	display: inline;
 	font-size: 20px;
+}
+
+#blurb {
+	margin-top: 144px;
 }
