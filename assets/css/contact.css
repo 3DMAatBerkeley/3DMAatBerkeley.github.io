@@ -101,3 +101,11 @@ input[type=text], textarea {
 .submission input[type="submit"] {
 	border: 1px solid #6e949c;
 }
+
+#response {
+	display: block;
+	text-align: center;
+	/*background-color: green;*/
+	margin-top: 144px;
+	padding-top: 100px;
+}
