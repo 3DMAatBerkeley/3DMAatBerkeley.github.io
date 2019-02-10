@@ -84,9 +84,9 @@ input[type=text], textarea {
 }
 
 #form {
-	margin-top: 150px;
 	margin-left: 30%;
 	margin-right: 30%;
+	margin-bottom: 100px;
 }
 
 #form h1 {
@@ -110,6 +110,16 @@ input[type=text], textarea {
 }
 
 #fox {
-	display: block;
 	text-align: center;
+	margin-top: 200px;
+}
+
+#fox img {
+	display: inline-block;
+	margin-bottom: 0;
+	width: 25%;
+}
+
+#fox p {
+	font-size: 30px;
 }
