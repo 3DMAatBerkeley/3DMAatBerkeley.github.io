@@ -65,3 +65,14 @@ h2 {
 	display: inline;
 	font-size: 20px;
 }
+
+#fox {
+	text-align: center;
+	margin-top: 175px;
+}
+
+#fox img {
+	display: inline-block;
+	margin-bottom: 0;
+	width: 25%;
+}
